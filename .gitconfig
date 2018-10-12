@@ -1,0 +1,18 @@
+[user]
+	name = Jordan Mannfeld
+	email = jordan.mannfeld@iga.in.gov
+
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  ps = push
+  pl = pull
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  ac = !git add -A && git commit
+[color]
+	ui = true
